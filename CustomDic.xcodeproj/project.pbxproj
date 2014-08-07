@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F080BD88199210C60007A52B /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = F080BD87199210C60007A52B /* threads.c */; };
 		F0DE2622198B83570095627B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DE2621198B83570095627B /* main.c */; };
 		F0DE2624198B83570095627B /* CustomDic.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F0DE2623198B83570095627B /* CustomDic.1 */; };
+		F0DE262F198B83DB0095627B /* idic.c in Sources */ = {isa = PBXBuildFile; fileRef = F0DE262E198B83DB0095627B /* idic.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F0531462199369D9001A78B6 /* idic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idic.h; sourceTree = "<group>"; };
+		F080BD86199210BC0007A52B /* threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threads.h; sourceTree = "<group>"; };
+		F080BD87199210C60007A52B /* threads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threads.c; sourceTree = "<group>"; };
 		F0DE261E198B83570095627B /* CustomDic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomDic; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DE2621198B83570095627B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0DE2623198B83570095627B /* CustomDic.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CustomDic.1; sourceTree = "<group>"; };
+		F0DE262E198B83DB0095627B /* idic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = idic.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 		F0DE2620198B83570095627B /* CustomDic */ = {
 			isa = PBXGroup;
 			children = (
+				F0531462199369D9001A78B6 /* idic.h */,
 				F0DE2621198B83570095627B /* main.c */,
+				F080BD86199210BC0007A52B /* threads.h */,
+				F080BD87199210C60007A52B /* threads.c */,
 				F0DE2623198B83570095627B /* CustomDic.1 */,
+				F0DE262E198B83DB0095627B /* idic.c */,
 			);
 			path = CustomDic;
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DE262F198B83DB0095627B /* idic.c in Sources */,
 				F0DE2622198B83570095627B /* main.c in Sources */,
+				F080BD88199210C60007A52B /* threads.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +239,7 @@
 				F0DE2629198B83570095627B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
