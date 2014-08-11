@@ -1,2 +1,4 @@
 This is a custom dictionary program created by Nick Zhang from NicksLab
 the program basically reads in a plain text file that has multiple entries to be looked up. It then request definitions for each entry via Merriam-Webster API. Finally, it parse the returned XML file and write the output to an output file with a desired format. The program is written in C in Xcode and has been tested and only tested on Mac OS X, however, it should work on other platform with minor modification, for it mainly uses POSIX standard functions.
+
+the online repository is not complete yet,more files need to be added if the program is to be "out of box usable"
