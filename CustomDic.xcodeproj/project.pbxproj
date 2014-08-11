@@ -30,6 +30,7 @@
 		F0531462199369D9001A78B6 /* idic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idic.h; sourceTree = "<group>"; };
 		F080BD86199210BC0007A52B /* threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = threads.h; sourceTree = "<group>"; };
 		F080BD87199210C60007A52B /* threads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threads.c; sourceTree = "<group>"; };
+		F08D96661998E8D0004B5983 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		F0DE261E198B83570095627B /* CustomDic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomDic; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DE2621198B83570095627B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F0DE2623198B83570095627B /* CustomDic.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CustomDic.1; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		F0DE2615198B83570095627B = {
 			isa = PBXGroup;
 			children = (
+				F08D96661998E8D0004B5983 /* README.md */,
 				F0DE2620198B83570095627B /* CustomDic */,
 				F0DE261F198B83570095627B /* Products */,
 			);
